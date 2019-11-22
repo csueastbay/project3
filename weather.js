@@ -60,13 +60,13 @@ textSize(20);
   {
 //parse data for text variables:data1,data2,data3
     data1 = weather.main.temp;
-    text(data1,75,160);
+    text(data1 + '°F',75,160);
 
     data2 = weather.main.humidity;
-    text(data2,285,165);
+    text(data2 + '%',285,165);
 
     data3 = weather.wind.speed;
-    text(data3,480,165);
+    text(data3 + 'mph',480,165);
 
     data4 = weather.clouds.all;
     text(data4,260,375);
